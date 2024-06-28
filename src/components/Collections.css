@@ -21,3 +21,7 @@ Button:hover {
 .btn:hover {
     color: gray !important;
 }
+
+.shadow {
+    box-shadow: 10px 10px 3px gainsboro!important;
+}

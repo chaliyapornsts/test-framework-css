@@ -47,12 +47,12 @@ const ArtCollection = () => {
                 {images.map((image, index) => (
                     <div key={index}>
                         <img
-                            className="object-cover w-80 h-80 pb-3 cursor-pointer"
+                            className="shadow object-cover w-80 h-80 cursor-pointer"
                             src={image}
                             alt={`Artwork ${index + 1}`}
                             onClick={() => handleImageClick(index)}
                         />
-                        <p>
+                        <p className='pt-8'>
                             <b>แสลมของคนแรงงาน, 2565</b><br />
                             Kanuengnit Phosri
                         </p>

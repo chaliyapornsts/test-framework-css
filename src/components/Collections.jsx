@@ -100,8 +100,9 @@ const Collections = () => {
         <div className="grid grid-cols-4 gap-10 items-center">
           {images.map((image, index) => (
             <div key={index}>
-              <img onClick={() => openModal(image)} className="object-cover w-80 h-80 pb-3 cursor-pointer" src={image} alt={`Artwork ${index + 1}`} />
-              <p>แสลมของคนแรงงาน, 2565<br />
+              <img onClick={() => openModal(image)} className="shadow object-cover w-80 h-80 cursor-pointer" src={image} alt={`Artwork ${index + 1}`} />
+              <p className='pt-8'>
+                <b>แสลมของคนแรงงาน, 2565</b><br />
                 Kanuengnit Phosri
               </p>
             </div>
