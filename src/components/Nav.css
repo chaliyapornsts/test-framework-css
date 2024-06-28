@@ -1,0 +1,15 @@
+.dark\:bg-metal-900 {
+    background-color: white !important;
+}
+
+.dark\:border-metal-800 {
+    border-color: gainsboro !important;
+}
+
+.dark\:hover\:text-metal-900:hover {
+    color: orange !important;
+}
+
+.dark\:text-white {
+    color: black !important;
+}

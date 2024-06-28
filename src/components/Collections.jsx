@@ -1,0 +1,113 @@
+import { Button, ButtonGroup } from 'keep-react'
+import './Collections.css'
+
+const Collections = () => {
+  return (
+    <div className='flex flex-col items-center justify-center text-center'>
+      <img className='pt-14' src='./src/assets/Group 215.png' alt="Logo" width={300} />
+      <div>
+        <p>
+          <b>The Rama IX Art Museum Foundation { }</b>
+          collection consists of works of art donated to the Foundation<br />
+          Foundation for its permanent collection by Thai artist and collectors.<br />
+          The collection now consists of 400 works of art by various Thai artists.
+        </p>
+        <p className=' mt-9'>
+          ศิลปินและผู้สะสมงานศิลปะหลายท่านได้ร่วมใจบริจาคงานศิลปะให้แก่มูลนิธิหอศิลปะแห่งรัชกาลที่ ๙ <br />
+          เพื่อเป็นศิลปะกรรมสะสมถาวร ปัจจุบันมูลนิธิฯ มีผลงานศิลปะสะสมรวมจำนวน ๔๐๐ ชิ้น จากหลากหลายศิลปินไทย
+        </p>
+        <div className='flex justify-between mt-20'>
+          <h3 className='text-2xl hover:text-orange-400'>INSTITTUTIONAL COLLECTIONS</h3>
+          <h3 className='text-2xl hover:text-orange-400'>PRIVATE COLLECTIONS</h3>
+        </div>
+        <hr />
+        <div>
+          <ButtonGroup className='flex justify-center mt-8'>
+            <p className='pr-6 text-orange-400'>All</p>
+            <p className='pr-6'>—</p>
+            <Button>A</Button>
+            <Button>B</Button>
+            <Button>C</Button>
+            <Button>D</Button>
+            <Button>E</Button>
+            <Button>G</Button>
+            <Button>H</Button>
+            <Button>I</Button>
+            <Button>J</Button>
+            <Button>K</Button>
+            <Button>L</Button>
+            <Button>M</Button>
+            <Button>N</Button>
+            <Button>O</Button>
+            <Button>P</Button>
+            <Button>Q</Button>
+            <Button>R</Button>
+            <Button>S</Button>
+            <Button>T</Button>
+            <Button>U</Button>
+            <Button>V</Button>
+            <Button>W</Button>
+            <Button>X</Button>
+            <Button>Y</Button>
+            <Button>Z</Button>
+          </ButtonGroup>
+        </div>
+        <p className='flex justify-end my-5'>
+          — 256 piece
+        </p>
+        <div className="grid grid-cols-4 gap-10 items-center">
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/1.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/2.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className=" object-cover w-full h-full" src="./src/assets/3.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/4.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/5.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/6.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/7.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/8.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/22.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/396.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/KANUENGNIT _PHOSRI _(KAEW)2.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/KANUENGNIT _PHOSRI _(KAEW)3.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/KANUENGNIT _PHOSRI _(KAEW)4.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/KANUENGNIT _PHOSRI _(KAEW)16.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/8.jpg" alt="" />
+          </div>
+          <div className="w-80 h-80">
+            <img className="object-cover w-full h-full" src="./src/assets/6.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Collections

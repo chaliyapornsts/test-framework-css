@@ -1,0 +1,15 @@
+Button:hover {
+    color: rgb(255, 154, 22) !important;
+}
+
+.text-white {
+    color: black !important;
+}
+
+.bg-primary-500 {
+    background-color: white !important;
+}
+
+.px-6 {
+    padding-left: 0 !important;
+}
