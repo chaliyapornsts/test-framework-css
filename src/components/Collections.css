@@ -1,5 +1,5 @@
 Button:hover {
-    color: rgb(255, 154, 22) !important;
+    color: orange !important;
 }
 
 .text-white {
@@ -12,4 +12,12 @@ Button:hover {
 
 .px-6 {
     padding-left: 0 !important;
+}
+
+.border-t-metal-100 {
+    border-top-color: grey !important;
+}
+
+.btn:hover {
+    color: gray !important;
 }

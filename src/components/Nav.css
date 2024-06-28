@@ -13,3 +13,7 @@
 .dark\:text-white {
     color: black !important;
 }
+
+.hover\:bg-metal-100 {
+    background-color: white !important;
+}
